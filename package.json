@@ -1,7 +1,7 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "compile": "hardhat compile",
+    "build": "hardhat compile",
     "test": "hardhat test",
     "depoly": "hardhat ignition deploy ./ignition/modules/Canvas.ts  --network test"
   },
@@ -10,6 +10,7 @@
     "hardhat": "^2.22.18"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
     "dotenv": "^16.4.7"
   }
 }
